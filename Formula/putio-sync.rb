@@ -1,10 +1,10 @@
 class PutioSync < Formula
   desc "CLI tool for syncing files from Put.io to local storage"
   homepage "https://github.com/devclinton/putio-sync"
-  url "https://github.com/devclinton/putio-sync/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "1a545c58d534071e4c875557895ef883e1ff4ec67f5b9748f65878e76e78eb2f"  # This will be updated automatically by release workflow
+  url "https://github.com/devclinton/putio-sync/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "bc2eed47927c5013f36593985462267e05947acc906b1b0709c5fa20e27f4e1a"  # This will be updated automatically by release workflow
   license "MIT"
-  version "0.4.0"
+  version "0.3.0"
 
   depends_on "rust" => :build
 
